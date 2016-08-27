@@ -74,7 +74,7 @@ public class Solution {
 	}
 	
 	public static void main(String[] args){
-		int[] nums={-1, 0, 1, 2, -1, -4};
+		int[] nums={-3,-2,-1,0,1,2,3};
 		ArrayList<ArrayList<Integer>> set = threeSum(nums);
 		for(ArrayList<Integer> list : set){
 			for(Integer i : list){
