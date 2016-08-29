@@ -16,21 +16,12 @@ public class Solution {
     		w*=10;
     	}
     	w/=100;
-    	
     	if(w==0){
     		w=1;
-    	}
-    	int m=w==1?10:w;
-    	if(n/(w*10)<2){
-    		m/=10;
-    		if(m==1){
-    			m*=10;
-    		}
     	}
     	if(n/10+1==10*w){
     	    w*=10;
     	}
-    	
     	ArrayList<Integer> results = new ArrayList<>();
     	while(i<=n){
     		results.add(i);
@@ -43,7 +34,6 @@ public class Solution {
     			results.add(i);
     		}
     		i-=1;
-    		
     		i=i/10+1;
     		if(i==w)break;
     		while(i%10==0){
