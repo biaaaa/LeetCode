@@ -1,4 +1,4 @@
-package duplicateNumber;
+package easy_DuplicateNumber;
 
 public class Solution {
 	public static int duplicateNumber(int num) {
