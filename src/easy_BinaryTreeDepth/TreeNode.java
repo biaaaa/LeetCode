@@ -6,6 +6,4 @@ package easy_BinaryTreeDepth;
      public TreeNode left;
      public TreeNode right;
      public TreeNode(int x) { val = x; }
-     
-
  }
