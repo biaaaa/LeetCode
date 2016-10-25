@@ -4,7 +4,7 @@ public class Solution {
 
 	public int strStr(String source, String target){
 		int lengthT = target.length();
-		
+		if(source.isEmpty())
 		for(int i =0 ; i<=source.length()-lengthT;i++){
 			if(source.charAt(i)==target.charAt(0)){
 				if(source.substring(i, i+lengthT).equals(target)){
